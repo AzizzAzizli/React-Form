@@ -1,0 +1,27 @@
+.modalBackground {
+  background-color: rgba(128, 128, 128, 0.636);
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.editModal {
+    padding: 14px;
+  width: 30%;
+  height: 400px;
+  background-color: rgb(62, 61, 61);
+}
+.modalInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  && input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+
+}

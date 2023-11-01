@@ -1,0 +1,50 @@
+.App-header {
+  background: linear-gradient(to right, #00a1e4, #25b9ad);
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 22px;
+  align-items: center;
+  && h1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #222121;
+  }
+}
+nav {
+  display: flex;
+  gap: 18px;
+  && a {
+    color: #222121;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    &&:hover {
+      color: #524f4f;
+    }
+  }
+}
+.contain{
+ background-color: #86c1ec6b;
+  min-height: 100vh;
+
+}
+.inputs{
+  display: flex;
+gap: 18px;
+justify-content: center;
+&& input{
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+}
+}
+.contents{
+  padding-top: 32px;
+}
+.maxHeight{
+  max-height: 600px;
+  overflow: auto;
+  
+}
