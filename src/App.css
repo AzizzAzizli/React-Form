@@ -25,26 +25,27 @@ nav {
     }
   }
 }
-.contain{
- background-color: #86c1ec6b;
+.contain {
+  background-color: #86c1ec6b;
   min-height: 100vh;
-
 }
-.inputs{
+.inputs {
   display: flex;
-gap: 18px;
-justify-content: center;
-&& input{
-  border-radius: 10px;
-  border: none;
-  padding: 8px;
+  gap: 18px;
+  justify-content: center;
+  && input {
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+  }
 }
-}
-.contents{
+.contents {
   padding-top: 32px;
 }
-.maxHeight{
+.maxHeight {
   max-height: 600px;
   overflow: auto;
-  
+}
+a {
+  text-decoration: none;
 }
